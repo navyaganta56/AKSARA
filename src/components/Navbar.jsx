@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center max-w-7xl mx-auto">
           {/* Logo Section */}
           <div className="flex items-center space-x-4">
-            <img src="/src/assets/logo_official.png" alt="Logo" className="w-14 h-14 object-contain" />
+            <img src="/assets/logo_official.png" alt="Logo" className="w-14 h-14 object-contain" />
             <div className="flex flex-col">
               <DancingText
                 text="AKSHARA HIGH SCHOOL"

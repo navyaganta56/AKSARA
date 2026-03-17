@@ -6,12 +6,12 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { url: "/src/assets/yoga_class.jpg", title: "Yoga and Wellness Session" },
-    { url: "/src/assets/it_literacy_class.jpg", title: "IT Literacy Session" },
-    { url: "/src/assets/digital_learning.jpg", title: "Audio Visual Classes" },
-    { url: "/src/assets/students_jumping.jpg", title: "Joyful Activities" },
-    { url: "/src/assets/handshake.jpg", title: "Community Partnerships" },
-    { url: "/src/assets/speaking_event.jpg", title: "Principal's Address" }
+    { url: "/assets/yoga_class.jpg", title: "Yoga and Wellness Session" },
+    { url: "/assets/it_literacy_class.jpg", title: "IT Literacy Session" },
+    { url: "/assets/digital_learning.jpg", title: "Audio Visual Classes" },
+    { url: "/assets/students_jumping.jpg", title: "Joyful Activities" },
+    { url: "/assets/handshake.jpg", title: "Community Partnerships" },
+    { url: "/assets/speaking_event.jpg", title: "Principal's Address" }
   ];
 
   return (

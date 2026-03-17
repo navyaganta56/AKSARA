@@ -5,20 +5,20 @@ import { ChevronRight, ChevronLeft } from 'lucide-react';
 const Hero = () => {
   const slides = [
     {
-      image: "/src/assets/admission_banner.jpg",
+      image: "/assets/admission_banner.jpg",
       showOverlay: true,
       buttonText: "ADMISSIONS OPEN 2026-27"
     },
     {
-      image: "/src/assets/graduation_1.jpg",
+      image: "/assets/graduation_1.jpg",
       showOverlay: false
     },
     {
-      image: "/src/assets/handshake.jpg",
+      image: "/assets/handshake.jpg",
       showOverlay: false
     },
     {
-      image: "/src/assets/speaking_event.jpg",
+      image: "/assets/speaking_event.jpg",
       showOverlay: false
     }
   ];

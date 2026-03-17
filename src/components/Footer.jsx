@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <img src="/src/assets/logo_official.png" alt="Logo" className="w-12 h-12 object-contain" />
+              <img src="/assets/logo_official.png" alt="Logo" className="w-12 h-12 object-contain" />
               <div className="flex flex-col">
                 <span className="text-xl font-black text-white uppercase tracking-tight">AKSHARA HIGH SCHOOL</span>
                 <span className="text-[10px] text-red-500 font-black leading-none tracking-wider">NAWABPET, TIRUPATI</span>
