@@ -10,16 +10,14 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-white rounded-full p-2">
-                <img src="/src/assets/logo_official.png" alt="Logo" className="w-full h-full object-contain" />
-              </div>
+              <img src="/src/assets/logo_official.png" alt="Logo" className="w-12 h-12 object-contain" />
               <div className="flex flex-col">
-                <DancingText text="AKSHARA HIGH SCHOOL" className="text-xl font-black rainbow-school-text" />
+                <span className="text-xl font-black text-white uppercase tracking-tight">AKSHARA HIGH SCHOOL</span>
                 <span className="text-[10px] text-red-500 font-black leading-none tracking-wider">NAWABPET, TIRUPATI</span>
               </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              <DancingText text="Akshara High School" className="font-bold green-gradient-text" /> is a premier educational institution dedicated to nurturing young minds with academic excellence and holistic development.
+              <span className="font-bold text-white">Akshara High School</span> is a premier educational institution dedicated to nurturing young minds with academic excellence and holistic development.
             </p>
           </div>
 
@@ -93,7 +91,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-slate-800/50 text-center">
           <p className="text-slate-500 text-xs font-medium tracking-wide">
-            © {new Date().getFullYear()} <DancingText text="AKSHARA HIGH SCHOOL" className="rainbow-school-text" /> - All Rights Reserved.
+            © {new Date().getFullYear()} <span className="text-white font-bold">AKSHARA HIGH SCHOOL</span> - All Rights Reserved.
           </p>
         </div>
       </div>
