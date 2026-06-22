@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/ethnocentric');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  position: relative;
+  overflow-x: hidden;
+}
+
+@keyframes dancing {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(-4px);
+  }
+
+  75% {
+    transform: translateY(4px);
+  }
+}
+
+.dancing-letter {
+  display: inline-block;
+  animation: dancing 2s ease-in-out infinite;
+}
+
+.green-gradient-text {
+  display: inline-flex;
+  gap: 0.05em;
+}
+
+.green-gradient-text .dancing-letter {
+  background-image: linear-gradient(to bottom, #10b981, #059669, #047857);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+/* Rainbow school name — matches AKSHARA HIGH SCHOOL image style */
+.rainbow-school-text {
+  font-family: 'Ethnocentric', sans-serif;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.1em;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+
+.rainbow-school-text .dancing-letter {
+  display: inline-block;
+}
+
+.no-animation .dancing-letter {
+  animation: none !important;
+}
