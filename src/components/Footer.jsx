@@ -94,7 +94,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-slate-800/50 text-center">
           <p className="text-slate-500 text-xs font-medium tracking-wide">
-            © {new Date().getFullYear()} <span className="text-white font-bold">AKSHARA HIGH SCHOOL</span> - All Rights Reserved.
+            © COPYRIGHT 2025 <span className="text-white font-bold">SRI AKSHARA EDUCATIONAL SOCIETY</span> - ALL RIGHTS RESERVED
           </p>
         </div>
       </div>
